@@ -1,0 +1,16 @@
+name: 'Setup OAT'
+description: 'GitHub action to setup OAT on Linux and Windows'
+inputs:
+  version:
+    description: 'OAT version'
+    required: true
+  path:
+    description: 'OAT path'
+    required: false
+    default: '.OAT'
+branding:
+  icon: 'box'
+  color: 'red'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
