@@ -1,0 +1,5 @@
+// Engine name
+>game,IW5
+
+// Create a zone with only one rawfile
+rawfile,sample_zone
