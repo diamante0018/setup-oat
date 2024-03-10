@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "description": "GitHub action to setup oat on Linux and Windows.",
     "main": "index.js",
+    "scripts": {
+        "build": "ncc build --license licenses.txt"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/diamante0018/setup-oat"
