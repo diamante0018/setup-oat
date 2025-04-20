@@ -3,7 +3,7 @@ name: test
 on: [push]
 
 jobs:
-  test-win:
+  test-windows:
     name: Test on Windows
     runs-on: windows-latest
 
@@ -16,7 +16,7 @@ jobs:
         with:
           version: "0.8.3"
 
-      - name: Create empty zone
+      - name: Create zone
         run: |
           Linker -v sample_zone
 
@@ -33,6 +33,6 @@ jobs:
         with:
           version: "0.8.3"
 
-      - name: Create empty zone
+      - name: Create zone
         run: |
           Linker -v sample_zone

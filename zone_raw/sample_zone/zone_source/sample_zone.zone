@@ -1,5 +1,6 @@
 // Engine name
 >game,IW5
 
-// Create a zone with only one rawfile
-rawfile,sample_zone
+// Create a zone with only a few assets
+scriptfile,scripts/_test
+rawfile,scripts/_test.gsc
